@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>鑫有琳嘻嘻嘻！</title>
+    <meta name="language" content="zh-CN">
+    <meta name="title" content="鑫有琳嘻嘻嘻！">
+    <meta name="github" content="https://github.com/sun0225SUN/Awesome-Love-Code">
+    <meta name="describe" content="收集不易，您的star是我坚持的动力，同时也欢迎各位PR哦! ">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/viewer.min.css">
+</head>
+
+<body>
+
+    <!-- ALL -->
+    <div id="Indexbox">
+
+        <!-- 顶部菜单 -->
+<!--         <div class="menu" id="menu">
+            <img src="./favicon.ico" alt="favicon">
+            <ul id="menuUL">
+                <li>
+                    <a href="https://www.sunguoqi.com/" target="_blank">首页(L)</a>
+                </li>
+                <li>
+                    <a href="https://sunguoqi.com/archives/" target="_blank">文章(V)</a>
+                </li>
+                <li>
+                    <a href="https://sunguoqi.com/categories/" target="_blank">归档(E)</a>
+                </li>
+                <li>
+                    <a href="https://www.zhihu.com/people/sunguoqi" target="_blank">知乎(X)</a>
+                </li>
+                <li>
+                    <a href="https://sunguoqi.com/comments/" target="_blank">留言(J)</a>
+                </li>
+                <li>
+                    <a href="https://sunguoqi.com/about/" target="_blank">关于(O)</a>
+                </li>
+            </ul>
+            <p>sunshine.html</p>
+        </div> -->
+
+        <!-- 左侧菜单按钮 -->
+        <div class="leftBar">
+            <div class="leftBar-ButtomMe" onclick="MeClick(true)"></div>
+            <div class="leftBar-ButtomMenu" id="leftBar-ButtomMenu" onclick="MenuClick(true)">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+            <div class="leftBar-ButtomPages" id="menuPages" onclick="PagesClick(true)"></div>
+        </div>
+
+        <!-- 左侧拉出菜单 我 -->
+        <div class="leftBar-Me" id="leftBar-Me">
+            <div class="leftBar-ButtomClose" onclick="MeClick(false)">
+                <div class="div1"></div>
+                <div class="div2"></div>
+            </div>
+            <div class="img">
+                <img src="./images/logo.jpg" alt="头像">
+            </div>
+            <div class="introduction">
+                <h1>Hi! 小张同学</h1>
+                <p>这是我为你准备的独家专属礼物，请查收哦！</p>
+                <p>生活总是充满惊喜的嘛!用这种特殊的方式记录我们的七夕节，爱你哟biu~</p>
+            </div>
+        </div>
+
+        <!-- 页面版块1 -->
+        <div class="pages" id="pages">
+
+            <!-- 页面选项卡 -->
+            <div class="pages-title">
+                <div class="pages-title-option pages-title-option-click" id="pages-title-option1"
+                    onclick="pages_title_option_click(1, true)">
+                    <img src="./images/stuck_out_tongue.png" alt="stuck_out_tongue">
+                    <p>来自渣渣鑫的一封信</p>
+                </div>
+            </div>
+
+            <!-- 页面 -->
+            <div class="pages-text pages-text-show" id="pages-text1">
+                <div class="pages-text-box">
+                    <h1>你好吖 ，我的小琳琳<br />关于你-----关于我-----关于我们</h1>
+                    <img class="pages-text-box-img" align="center" width="100px"
+                        src="./images/2.jpg" />
+                    <p>&emsp;&emsp;上次写信给你，已经过去了很久。也许你会觉得我不再像以前那样在意了，实际上，琐碎的事情让我没有足够的时间来回忆和记录我们的故事。</p>
+                    <p>&emsp;&emsp;我们的故事很长，从热烈激情到平凡简单。或许我们会羡慕别人的恋爱，期待着陪伴、每天上下班的等待，但异地的困难也伴随其中，让我们面对坎坷，却依然怀揣期望。我们曾厌倦过这样的日子，不知何时能结束，吵吵闹闹或许只是为了让我们感觉到彼此的存在或者找寻一点安慰吧。</p>
+                    <p>&emsp;&emsp;但我很想说，遇见了你，是我超级幸运的事情。我想所有路上的绊脚石，都将是以后喜悦的铺垫。一路走来，跌跌撞撞，坎坎坷坷，有苦有甜。</p>
+                    <p>&emsp;&emsp;我很高兴，一路走来，我们一直坚持着，没有放弃。我希望你能一直陪在我身边，哪怕有千万种不满意，只要想到你仍在我身旁，我就感到宁静。愿多年以后，当我白发苍苍时，你仍然紧握我的双手，我们一起走过春夏秋冬。</p>
+					<p>&emsp;&emsp;情人节快乐！我爱你！</p>
+                </div>
+            </div>
+
+            <div class="pages-text" id="pages-text2">
+                <div class="pages-text-box">
+                    <h1>test2</h1>
+                </div>
+            </div>
+
+            <div class="pages-text" id="pages-text3">
+                <div class="pages-text-box">
+                    <h1>test3</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页面版块2 -->
+    <div class="pages pages2" id="pages2">
+
+        <!-- 页面选项卡 -->
+        <div class="pages-title pages-title2">
+            <div class="pages-title-option pages-title-option-click">
+                <img src="./images/icecream.png" alt="icecream">
+                <p>My Life.md</p>
+            </div>
+        </div>
+
+        <!-- 页面 -->
+        <div class="pages-text pages-text-show">
+            <div class="pages-text-box pages-text-box2">
+                <h1>鑫♥琳  ~我们</h1>
+                <p>2023-05-01</p>
+                <p>故事开始</p>
+                <div class="pages-text-box-img">
+                    <img src="./images/love.jpg" alt="love1" class="n0ts-img">
+                    <h6>我们的第一张合影</h6>
+                </div>
+                <a href="../016/index.html" class="text-a" target="_blank">More?</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 底部版权 -->
+    <div class="footer" id="footer">
+        <p class="left">&copy; 2024年8月日 | BY 郝振鑫</a></p>
+        <p class="right"><a href="" target="_blank">愛してる</a></p>
+    </div>
+
+    </div>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="./js/N0ts.js"></script>
+    <script src="./js/viewer.min.js"></script>
+    <script src="./js//lovetime.js"></script>
+    <script>resize();</script>
+</body>
+
+</html>
